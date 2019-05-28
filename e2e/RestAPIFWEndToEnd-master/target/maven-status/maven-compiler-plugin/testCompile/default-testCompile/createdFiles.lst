@@ -1,0 +1,4 @@
+com/qa/tests/CreateCustomerPOSTCallTest.class
+com/qa/tests/HttpGetAPI.class
+com/qa/tests/GetCityInfo.class
+com/qa/tests/GetWeatherInfoTest.class

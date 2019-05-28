@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.tests.GetWeatherInfoTest">
+        <methods>
+          <include name="getWeatherDetailsWith_CorrectCityTest"/>
+          <include name="getWeatherDetailsWith_BlankCityTest"/>
+          <include name="getWeatherDetailsWith_InCorrectCityTest"/>
+          <include name="getWeatherDetailsWith_SpecialCharsCityTest"/>
+          <include name="getWeatherDetailsWith_NullCityTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.GetWeatherInfoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

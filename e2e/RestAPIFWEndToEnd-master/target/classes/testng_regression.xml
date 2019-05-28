@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My API Automation Regression Test Suite">
+
+	<test name="My API Test Cases">
+		<classes>
+			<class name="com.qa.tests.CreateCustomerPOSTCallTest"></class>
+			<class name="com.qa.tests.GetCityInfo"></class>
+			<class name="com.qa.tests.GetWeatherInfoTest"></class>
+			<class name="com.qa.tests.HttpGetAPI"></class>
+		</classes>
+	</test>
+</suite>

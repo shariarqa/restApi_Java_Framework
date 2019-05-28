@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 20.256 sec <<< FAILURE!
+getWeatherDetailsWith_CorrectCityTest(com.qa.tests.GetWeatherInfoTest)  Time elapsed: 0.574 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [503]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.qa.tests.GetWeatherInfoTest.getWeatherDetailsWith_CorrectCityTest(GetWeatherInfoTest.java:34)
+
+getWeatherDetailsWith_InCorrectCityTest(com.qa.tests.GetWeatherInfoTest)  Time elapsed: 0.602 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [503]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.qa.tests.GetWeatherInfoTest.getWeatherDetailsWith_InCorrectCityTest(GetWeatherInfoTest.java:81)
+
+getWeatherDetailsWith_NullCityTest(com.qa.tests.GetWeatherInfoTest)  Time elapsed: 0.569 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [503]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.qa.tests.GetWeatherInfoTest.getWeatherDetailsWith_NullCityTest(GetWeatherInfoTest.java:127)
+
+getWeatherDetailsWith_BlankCityTest(com.qa.tests.GetWeatherInfoTest)  Time elapsed: 0.57 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [503]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.qa.tests.GetWeatherInfoTest.getWeatherDetailsWith_BlankCityTest(GetWeatherInfoTest.java:172)
+
+getWeatherDetailsWith_SpecialCharsCityTest(com.qa.tests.GetWeatherInfoTest)  Time elapsed: 0.578 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [503]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.qa.tests.GetWeatherInfoTest.getWeatherDetailsWith_SpecialCharsCityTest(GetWeatherInfoTest.java:217)
+

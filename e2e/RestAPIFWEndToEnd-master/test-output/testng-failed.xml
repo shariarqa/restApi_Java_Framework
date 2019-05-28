@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My API Automation Test Suite]">
+  <test name="My API Test Cases(failed)">
+    <classes>
+      <class name="com.qa.tests.HttpGetAPI">
+        <methods>
+          <include name="setUp"/>
+          <include name="getWeatherInfo" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.qa.tests.HttpGetAPI -->
+    </classes>
+  </test> <!-- My API Test Cases(failed) -->
+</suite> <!-- Failed suite [My API Automation Test Suite] -->
